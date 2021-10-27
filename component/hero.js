@@ -15,7 +15,6 @@
   ```
 */
 import { ChevronRightIcon, StarIcon } from '@heroicons/react/solid'
-import Image from 'next/image'
 
 
 export default function Hero() {
@@ -25,9 +24,9 @@ export default function Hero() {
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
             <div>
-              <Image
-                src="/icon.png"
-                alt="Picture of the author"
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4600/4600227.png"
+                alt="John Wick Dog"
                 width={120}
                 height={120}
               />
